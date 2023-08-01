@@ -9,4 +9,6 @@ Just found a series of articles about math, but they are actually more than that
 
 **Mathematical Failure**: https://mathwithbaddrawings.com/2013/04/25/were-all-bad-at-math-1-i-feel-stupid-too/
 
-'**The State of Being Stuck**' Genuine gem: https://mathwithbaddrawings.com/2017/09/20/the-state-of-being-stuck/
+**The State of Being Stuck** - Genuine gem: https://mathwithbaddrawings.com/2017/09/20/the-state-of-being-stuck/
+
+**Reading Mathematics**: https://mathwithbaddrawings.com/2015/03/17/the-math-major-who-never-reads-math/
