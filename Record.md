@@ -5,7 +5,7 @@
 > *In addition to developing the students' intuition about the beautiful concepts of analysis, it is surely equally important to persuade them that precesion and rigor are neither **deterrents** to intuition, nor **ends in themselves**, but the natural medium in which to formulate and think about mathematical questions.*
 
 * **deterrent**
-  * a thing that discourages or is intended to discourage someone from doing something.
+  * (*noun*) a thing that discourages or is intended to discourage someone from doing something.
   * > *Cameras are a major deterrent to crime.*
 * **an end in itself**
   * a goal that is pursued in its own right to the exclusion of others.
