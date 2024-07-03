@@ -15,5 +15,7 @@ Just found a series of articles about math, but they are actually more than that
 
 ## 2024/7/3
 link some great courses for further study:
+
 https://mathweb.ucsd.edu/~asalehig/teaching.html  (abstract algebra so far)
+
 https://palbin.web.illinois.edu/  (linear algebra, algebraic topology, and more)
