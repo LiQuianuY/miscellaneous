@@ -17,5 +17,8 @@ Just found a series of articles about math, but they are actually more than that
 link some great courses for further study:
 
 https://mathweb.ucsd.edu/~asalehig/teaching.html  (abstract algebra so far)
+* https://mathweb.ucsd.edu/~asalehig/math103a-21-s.html  Math 103A: Algebra I
+* https://mathweb.ucsd.edu/~asalehig/math100b-21-w.html  Math 100B: Algebra II
+* https://mathweb.ucsd.edu/~asalehig/math100c-21-s.html  Math 100C: Algebra III
 
 https://palbin.web.illinois.edu/  (linear algebra, algebraic topology, and more)
