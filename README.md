@@ -23,3 +23,7 @@ https://palbin.web.illinois.edu/  (linear algebra, algebraic topology, all of wh
 * https://palbin.web.illinois.edu/Math416.Fall2023/Lectures.html MATH 416: Abstract Linear Algebra
 * https://palbin.web.illinois.edu/Math514.Fall2020/Lectures.html MATH 514: Complex Algebraic Geometry
 * https://palbin.web.illinois.edu/Math525.Spring2018/home.html Math 525: Topology
+
+## 2024/8/7
+a course for intro to theoretical computer science
+* [https://cs121.boazbarak.org/](https://cs121.boazbarak.org/)
