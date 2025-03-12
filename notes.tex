@@ -1,0 +1,88 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{enumerate}
+
+\newtheorem{property}{Property}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{example}{Example}[section]
+\theoremstyle{remark}
+\newtheorem*{remark}{Remark}
+\newtheorem*{convention}{Convention}
+
+
+
+\title{Notes to Analysis by Amann}
+\date{\today}
+\author{Lio Quid}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage 
+
+\section{Fundamentals of Logic}
+In logic of mathematics we are concerned with \textbf{statements} that are claimed to be true or false.
+That is, each statement has the \textit{truth value} 'true'(T) or 'false'(F),
+and there are no other possibilities.
+
+\subsection{Exercises}
+1. ``The Simpsons are coming to visit this evening,'' announced Maud Flanders.
+``The whole family — Homer, Marge and their three kids, Bart, Lisa and Maggie?'' asked Ned Flanders dismayed. 
+Maud, who never misses a chance to stimulate her husband's logical thinking, replied, 
+``I'll explain it this way: 
+If Homer comes then he will bring Marge too.
+At least one of the two children, Maggie and Lisa, are coming. 
+Either Marge or Bart is coming, but not both. 
+Either both Bart and Lisa are coming or neither is coming. 
+And if Maggie comes, then Lisa and Homer are coming too. 
+So now you know who is visiting this evening.''
+
+Who is coming to visit?
+
+\begin{proof}
+    Let $H$, $M_1$, $B$, $L$, $M_2$ be statements defined in the following:
+    \begin{align*}
+        H &:= \text{Homer is coming to visit.}\\
+        M_1 &:= \text{Marge is coming to visit.}\\
+        B &:= \text{Bart is coming to visit.}\\
+        L &:= \text{Lisa is coming to visit.}\\
+        M_2 &:= \text{Maggie is coming to visit.}
+    \end{align*}
+    Then according to the definitions made above,
+    we could rewrite the hypothesis in a cleaner way.
+    The hypothesis says the following statements are true:
+    \begin{enumerate}
+        \item $H \Rightarrow M_1$.
+        \item $L \lor M_2$.
+        \item $(M_1 \land \neg B) \lor (\neg M_1 \land B)$.
+        \item $(B \land L) \lor (\neg B \land \neg L)$.
+        \item $M_2 \Rightarrow (L \land H)$.
+    \end{enumerate}
+    We start from one of two implications above, 
+    say, we assume $M_2$ is true, i.e., Maggie is coming.
+    Then by statement (5) we have $L \land H$ be true,
+    thus we know both $L$ and $H$ must be true.
+    Then from statement (4) we know that $B$ must be true,
+    and from statement (1) that $M_1$ must be true.
+    Finally, from statement (3) we know that $B$ must be false, but this is a contradiction. (earlier we have just asserted that $B$ is true)
+    Hence we know that $M_2$ must be false. (Otherwise contradiction would happen)
+
+    Again, since $M_2$ is false, we know that $L$ must be true by statement (2).
+    Then we know that $B$ must be true from statement (4) and then $M_1$ must be false from statement (3).
+    Since $M_1$ is false, we know that $H$ must be false because statement (1) is true.
+    Now it seems like no logical contradiction occur and everyone in the simpsons are happy.
+
+    In conclusion, only statements $L$ and $B$ are true, that is, Lisa and Bart are coming to visit.
+\end{proof}
+
+2. In the library of Count Dracula no two books contain exactly the same number of words.
+The number of books is greater than the total number of words in all the books.
+These statements suffice to determine the content of at least one book in Count Dracula's
+library. What is in this book?
+\end{document}
