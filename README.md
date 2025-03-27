@@ -27,3 +27,7 @@ https://palbin.web.illinois.edu/  (linear algebra, algebraic topology, all of wh
 ## 2024/8/7
 a course for intro to theoretical computer science
 * [https://cs121.boazbarak.org/](https://cs121.boazbarak.org/)
+
+## 2025/3/27
+a open source visual novel engine, check it out:
+* https://www.renpy.org/
